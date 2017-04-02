@@ -1,0 +1,11 @@
+import RPi.GPIO as GPIO
+
+GPIO.setmode(GPIO.BCM)
+
+PIO.setwarnings(False)
+
+GPIO.setup(18,GPIO.OUT)
+
+print " Pover suply 3.3volts OFF "
+
+GPIO.output(18,GPIO.LOW)
